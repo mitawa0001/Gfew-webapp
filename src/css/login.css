@@ -1,0 +1,91 @@
+.loginWrapper {
+    background-image: url(/src/image/background.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 110px;
+}
+.login-card {
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.img-fluid, .img-thumbnail {
+    height: auto;
+    max-width: 100%;
+}
+.main-special{
+    height:100%; 
+    max-width: 400px
+}
+.card-body {
+    color: var(--bs-card-color);
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+}
+.card-header:first-child {
+    border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) 0 0;
+}
+.login-title {
+    background-color: #fff;
+    color: #016937;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #6c757d!important;
+}
+.loginEmailInput, .loginPasswordInput {
+    border: none;
+    border-bottom: 1px solid grey;
+    margin: 10px;
+    outline: none;
+    width: 100%;
+}
+.forgotPasswordLabel {
+    color: #f0f !important;
+    cursor: pointer;
+    text-align: right;
+    width: 100%;
+}
+.loginButton {
+    background-color: #016937 !important;
+    width: 100%;
+}
+.forgott{
+    color: inherit;
+     text-decoration: inherit;
+}
+.before-login{
+    width: 75%; 
+    height: 100%; 
+    text-decoration: inherit;
+}
+.noAccountLabel {
+    color: #016937;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+.text-decoration-none {
+    text-decoration: none!important;
+}
+.noAccountLabel {
+    color: #016937;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .loginWrapper {
+       
+        padding-top: 10px;
+    }
+  }

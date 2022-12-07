@@ -1,0 +1,43 @@
+.appLogo {
+    height: 60px;
+    margin-right: 70px;
+    width: 160px;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1500px;
+}
+.for-shadow{
+    background-color: #fff;
+    box-shadow: 0 0 10px 1px #000;
+    flex-direction: row;
+    height: fit-contentcalc("50px");
+    justify-content: flex-start;
+    position: fixed;
+    width: 100%;
+    padding: 0px;
+    position: static;
+}
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: space-between;
+}
+.smallProfilePic {
+    width: 40px;
+    height: 40px;
+
+}
+.user-name{
+    
+
+}
+
+.available{
+    font-size: 0.7em;
+    color: #7abb64;
+    margin-top: -5px;
+}
+input.me-2.form-control {
+    background-color: #f2f5fa;
+    border-radius: 25px;
+}

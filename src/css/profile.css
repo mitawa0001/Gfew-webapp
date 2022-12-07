@@ -1,0 +1,84 @@
+body{
+    background-color: #f2f5fa;
+}
+.homepageWrapper {
+    left: 260px;
+    position: relative;
+    top: 0px;
+    width: calc(100% - 260px);
+    padding: 10px;
+}
+.secProfileBadges {
+    justify-content: center;
+    margin: 2px;
+    padding: 2px;
+}
+.banner-one{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+.banner-two{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.available-2{
+    color: #7abb64;
+}
+.common-color-text{
+    color: #6c757d!important;
+    font-size: 0.9em;   
+}
+.badgesIcon {
+   
+    margin: 5px;
+    padding: 5px;
+   
+}
+.single-child {
+    background: #fff;
+    padding: 15px 20px;
+    margin: 15px 15px 15px 0px;
+    border-radius: 5px;
+    display: flex;
+    width: 30%;
+}
+.for-img-bg{
+    align-items: center;
+    background-color: #ff4500;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    width: 40px;
+}
+.strong{
+    font-weight: 700;
+    font-size: 16px;
+}
+.current{
+    font-size: .7em;
+    font-weight: 700;
+}
+.activity {
+    padding: 15px 15px 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: grey 2px 2px 3px 1px;
+}
+.goels{
+    display: flex;
+    justify-content: space-between;
+}
+.current-head{
+        font-weight: 700;
+        font-size: 18px;
+}
+.current-edit{
+    font-weight: 700;
+        font-size: 14px;
+}
+.state-data{
+    width: calc(100% - 30px); 
+}

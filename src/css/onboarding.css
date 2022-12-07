@@ -1,0 +1,16 @@
+.modal-header {
+    display: flex;
+    flex-shrink: 0;
+    background: #f3f3f3;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--bs-modal-header-padding);
+    border-bottom: var(--bs-modal-header-border-width) solid #dee2e6;
+    border-top-left-radius: var(--bs-modal-inner-border-radius);
+    border-top-right-radius: var(--bs-modal-inner-border-radius);
+}
+.modal {
+    --bs-modal-zindex: 1055;
+    --bs-modal-width: 600px;
+    
+}
