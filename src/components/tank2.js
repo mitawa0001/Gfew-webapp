@@ -15,9 +15,9 @@ function tank() {
                 <div className="ul-level-indi">Low</div>
                 <div className="ul-level-indi for-res-color">Reserve</div>
         </div>
-            <div className="border-box-tank-1">
+            <div className="border-box-tank-2">
               
-              <span className="level">FULL</span>
+              <span className="level-3">LOW</span>
             </div>
           </div>
 

@@ -10,7 +10,9 @@ import "../src/css/alert.css"
 import Alert from './components/alert.js';
 import Activity from './components/activity.js';
 import Tank from './components/tank.js';
-
+import Tank1 from './components/tank1.js';
+import Tank2 from './components/tank2.js';
+import Tank3 from './components/tank3.js';
 // import Alert3 from './components/alert3.js';
 
 function App() {
@@ -24,6 +26,9 @@ function App() {
     <Alert/>
     <Activity/>
     <Tank/>
+    <Tank1/>
+    <Tank2/>
+    <Tank3/>
     {/* <Alert3/> */}
     </>
     
